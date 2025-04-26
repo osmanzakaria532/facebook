@@ -1,12 +1,109 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Sign Up Page
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Registration Form
 
-## Expanding the ESLint configuration
+Login Page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Forgotten Page
+
+And you want it nicely styled for your project README or docs, right?
+
+Here’s a clean and professional Pages.md for you:
+
+---
+
+📄 Pages Overview
+This project includes the following core pages and forms:
+
+---
+
+🔹 1. Sign Up Page
+Purpose: Allow new users to create an account.
+
+Features:
+
+Input fields for First Name, Last Name, Email, Password.
+
+Password visibility toggle.
+
+Validation for empty fields and email format.
+
+Submit button to register.
+---
+
+🔹 2. Registration Form
+Purpose: Detailed user registration for extended profiles.
+
+Features:
+
+Date of Birth selectors (Day, Month, Year).
+
+Gender selection (Male, Female, Other).
+
+Address or location fields (optional).
+
+Terms and Conditions checkbox.
+
+Submit and Reset buttons.
+---
+
+🔹 3. Login Page
+Purpose: Authenticate existing users to access the application.
+
+Features:
+
+Email or Mobile number input.
+
+Password input with visibility toggle (👁️).
+
+"Log In" button.
+
+Links to "Forgotten Password?" and "Create New Account".
+
+Error handling for wrong credentials.
+
+---
+
+
+🔹 4. Forgotten Password Page
+Purpose: Help users recover access to their accounts.
+
+Features:
+
+Input field for email or mobile number.
+
+"Search" button to find account.
+
+Error alert if no input is provided.
+
+Options to resend verification or go back to login.
+
+
+---
+📌 Styling and Tools
+Framework: TailwindCSS for fast and responsive styling.
+
+Behavior: ReactJS (functional components + hooks).
+
+Validation: Client-side basic validation with custom error messages.
+
+
+---
+
+
+🎯 Goal
+Deliver a clean, user-friendly authentication experience similar to popular platforms like Facebook.
+
+
+---
+
+📷 UI Screenshots
+(Add screenshots here if needed for documentation.)
+
+---
+📞 Support
+For any issues, please contact [your-email@example.com].
+
+---
