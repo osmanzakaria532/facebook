@@ -3,6 +3,7 @@ import RegistrationForm from "./components/section-layout/RegistrationForm";
 import FindAccount from "./pages/FindAccount";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
+import Home from "./pages/Home";
 
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
@@ -14,10 +15,10 @@ function App() {
         <div>
           {/* Define your routes using Routes */}
           <Routes>
-            {/* <Route
+            <Route
               path="/"
               element={<Home />}
-            /> */}
+            />
             {/* Home page */}
             {/* <Route
               path="/about"
