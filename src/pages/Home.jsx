@@ -8,7 +8,9 @@ const Home = () => {
     <>
       <TopMenuArea />
       <Flex className="items-start px-3 bg-[#252728] ">
-        <LeftSideMenu />
+        <div className="">
+          <LeftSideMenu />
+        </div>
         <div className="">2</div>
         <div className="">3</div>
       </Flex>
