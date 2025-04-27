@@ -6,7 +6,9 @@ import Flex from "../components/ui-layout/Flex";
 const Home = () => {
   return (
     <>
-      <TopMenuArea />
+      <div className="fixed w-full">
+        <TopMenuArea />
+      </div>
       <Flex className="items-start px-3 bg-[#252728] ">
         <LeftSideMenu />
         <div className="">2</div>
