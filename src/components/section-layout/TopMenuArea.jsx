@@ -16,7 +16,7 @@ import Flex from "../ui-layout/Flex";
 const TopMenuArea = () => {
   return (
     <>
-      <div className="bg-[#252728] border-b border-[#d1d1d1]/50 fixed w-full z-50">
+      <div className="bg-[#252728] border-b border-[#d1d1d1]/50  w-full z-50">
         {/* Left Area */}
         <Flex className="px-3 py-1.5 items-center">
           <Flex className="items-center gap-2">
