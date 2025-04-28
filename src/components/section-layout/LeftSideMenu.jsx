@@ -26,53 +26,51 @@ const LeftSideMenu = () => {
                       className="rounded-full"
                     />
                   </div>
-                  <h2 className="text-white/90 text-sm font-semibold">
-                    Osman Zakaria
-                  </h2>
-                </Flex>
-              </Link>
-            </li>
-            <li className="hover:bg-[#333334] p-2 rounded-md">
-              <Link>
-                <Flex className="gap-3 items-center !justify-start">
-                  <div className="w-[12%]">
-                    <div className="">
-                      <FaUserFriends className="text-2xl text-white" />
-                    </div>
+                </div>
+                <h2 className="text-white/90 text-sm font-semibold">
+                  Osman Zakaria
+                </h2>
+              </Flex>
+            </Link>
+          </li>
+          <li className="hover:bg-[#333334] p-2 rounded-md">
+            <Link>
+              <Flex className="gap-3 items-center !justify-start">
+                <div className="w-[12%]">
+                  <div className="">
+                    <FaUserFriends className="text-2xl text-white" />
                   </div>
-                  <h2 className="text-white/90 text-sm font-semibold">
-                    Friends
-                  </h2>
-                </Flex>
-              </Link>
-            </li>
-            <li className="hover:bg-[#333334] p-2 rounded-md">
-              <Link>
-                <Flex className="gap-3 items-center !justify-start">
-                  <div className="w-[12%]">
-                    <div className="">
-                      <MdVerified className="text-2xl text-blue-600" />
-                    </div>
-                  </div>
-                  <h2 className="text-white/90 text-sm font-semibold">
-                    Meta Verified
-                  </h2>
-                </Flex>
-              </Link>
-            </li>
-            <li className="hover:bg-[#333334] p-2 rounded-md">
-              <Link>
-                <Flex className="gap-3 items-center !justify-start">
-                  <div className="w-[12%]">
-                    <div className="">
-                      <MdDashboard className="text-2xl text-blue-600" />
-                    </div>
+                </div>
+                <h2 className="text-white/90 text-sm font-semibold">Friends</h2>
+              </Flex>
+            </Link>
+          </li>
+          <li className="hover:bg-[#333334] p-2 rounded-md">
+            <Link>
+              <Flex className="gap-3 items-center !justify-start">
+                <div className="w-[12%]">
+                  <div className="">
+                    <MdVerified className="text-2xl text-blue-600" />
                   </div>
                 </div>
                 <h2 className="text-white/90 text-sm font-semibold">
-                  Professional dashboard
+                  Meta Verified
                 </h2>
               </Flex>
+            </Link>
+          </li>
+          <li className="hover:bg-[#333334] p-2 rounded-md">
+            <Link>
+              <Flex className="gap-3 items-center !justify-start">
+                <div className="w-[12%]">
+                  <div className="">
+                    <MdDashboard className="text-2xl text-blue-600" />
+                  </div>
+                </div>
+              </Flex>
+              <h2 className="text-white/90 text-sm font-semibold">
+                Professional dashboard
+              </h2>
             </Link>
           </li>
           <li className="hover:bg-[#333334] p-2 rounded-md">
