@@ -10,7 +10,7 @@ const Home = () => {
         <TopMenuArea />
       </div>
       <Flex className="items-start px-3 bg-[#252728] ">
-        <div className="">
+        <div className="mt-16 h-[calc(100vh-50px)] overflow-y-scroll sticky">
           <LeftSideMenu />
         </div>
         <div className="">2</div>
