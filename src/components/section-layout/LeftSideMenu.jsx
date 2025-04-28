@@ -13,22 +13,6 @@ import Flex from "../ui-layout/Flex";
 const LeftSideMenu = () => {
   return (
     <>
-<<<<<<< HEAD
-      <div className="!h-screen overflow-y-auto scrollbar">
-        <div className="w-[285px] pt-3">
-          <ul>
-            <li className="hover:bg-[#333334] p-2 rounded-md">
-              <Link>
-                <Flex className="gap-3 items-center !justify-start">
-                  <div className="w-[12%]">
-                    <div className="w-7">
-                      <img
-                        src={p_images}
-                        alt=""
-                        className="rounded-full"
-                      />
-                    </div>
-=======
       <div className="w-[285px] py-3">
         <ul>
           <li className="hover:bg-[#333334] p-2 rounded-md">
@@ -41,7 +25,6 @@ const LeftSideMenu = () => {
                       alt=""
                       className="rounded-full"
                     />
->>>>>>> 6a48223b971416eaa4b46e876d16f3f219561469
                   </div>
                   <h2 className="text-white/90 text-sm font-semibold">
                     Osman Zakaria
@@ -85,27 +68,6 @@ const LeftSideMenu = () => {
                       <MdDashboard className="text-2xl text-blue-600" />
                     </div>
                   </div>
-<<<<<<< HEAD
-                  <h2 className="text-white/90 text-sm font-semibold">
-                    Professional dashboard
-                  </h2>
-                </Flex>
-              </Link>
-            </li>
-          </ul>
-
-          {/*  */}
-          <div className="pt-3 pb-5 px-2">
-            <hr className="text-white/90" />
-          </div>
-
-          {/*  */}
-          <ul>
-            <h4 className="text-white/70">Your shortcuts</h4>
-            <li></li>
-          </ul>
-        </div>
-=======
                 </div>
                 <h2 className="text-white/90 text-sm font-semibold">
                   Professional dashboard
@@ -243,7 +205,6 @@ const LeftSideMenu = () => {
             </Link>
           </li>
         </ul>
->>>>>>> 6a48223b971416eaa4b46e876d16f3f219561469
       </div>
     </>
   );
