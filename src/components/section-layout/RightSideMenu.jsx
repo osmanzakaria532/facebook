@@ -10,7 +10,7 @@ const RightSideMenu = () => {
     <>
       <div className="w-[270px] py-3">
         <ul>
-          <li>
+          <li className="mb-2.5">
             <div className="">
               <Flex className="items-center">
                 <h3 className="text-white/80 font-semibold">Friend requests</h3>
@@ -19,7 +19,7 @@ const RightSideMenu = () => {
                 </button>
               </Flex>
               <Link className="">
-                <Flex className="bg-[#333334] p-4 rounded-md gap-3">
+                <Flex className="hover:bg-[#333334] p-4 rounded-md gap-3">
                   <div className="w-12">
                     <img
                       src={p_images}
@@ -71,6 +71,20 @@ const RightSideMenu = () => {
                 </Flex>
               </Link>
             </div>
+          </li>
+          <li className="mb-2.5">
+            <div className="border-t border-white/90 pt-3 mx-1">Birthdays</div>
+            <Link></Link>
+          </li>
+          <li className="mb-2.5">
+            <div className="border-t border-white/90 pt-3 mx-1">Contacts</div>
+            <Link></Link>
+          </li>
+          <li className="mb-2.5">
+            <div className="border-t border-white/90 pt-3 mx-1">
+              Group chats
+            </div>
+            <Link></Link>
           </li>
         </ul>
       </div>

@@ -1,9 +1,9 @@
 import "./App.css";
 import RegistrationForm from "./components/section-layout/RegistrationForm";
 import FindAccount from "./pages/FindAccount";
+import Home from "./pages/Home";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
-import Home from "./pages/Home";
 
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
@@ -20,11 +20,6 @@ function App() {
               element={<Home />}
             />
             {/* Home page */}
-            {/* <Route
-              path="/about"
-              element={<About />} */}
-            />
-            {/* About page */}
             <Route
               path="/signup"
               element={<SignUp />}
