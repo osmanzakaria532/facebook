@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 import { BsThreeDots } from "react-icons/bs";
 import { FaGift } from "react-icons/fa";
@@ -13,7 +13,7 @@ import Flex from "../ui-layout/Flex";
 const RightSideMenu = () => {
   return (
     <>
-      <div className="w-[270px] py-3 overflow-x-hidden">
+      <div className="w-[270px] py-3 px-3 overflow-x-hidden bg-[#252728]">
         <ul>
           {/* Friend Request Section */}
           <li className="mb-2.5">

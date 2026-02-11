@@ -4,7 +4,7 @@ import Flex from "../components/ui-layout/Flex";
 
 import Button from "../components/ui-layout/Button";
 
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 import { IoMdArrowDropdown } from "react-icons/io";
 

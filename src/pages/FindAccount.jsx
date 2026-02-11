@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 import LoginHorizontal from "../components/section-layout/Login_horizontal";
 

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 import { FaUserFriends } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
@@ -14,7 +14,7 @@ import Flex from "../ui-layout/Flex";
 const LeftSideMenu = () => {
   return (
     <>
-      <div className="w-[285px] py-3">
+      <div className="w-[285px] py-3 px-3 bg-[#252728]">
         <ul>
           <li className="hover:bg-[#333334] p-2 rounded-md">
             <Link>

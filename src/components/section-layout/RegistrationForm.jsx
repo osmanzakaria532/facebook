@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 const RegistrationForm = () => {
   const days = Array.from({ length: 31 }, (_, i) => i + 1);

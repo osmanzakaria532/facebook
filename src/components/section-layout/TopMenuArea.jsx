@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 import { AiOutlineSearch } from "react-icons/ai";
 import { CgMenuGridO } from "react-icons/cg";
